@@ -1,0 +1,44 @@
+{
+  "name": "barticle",
+  "version": "0.1.0",
+  "description": "The BMS editor with Electron.",
+  "private": true,
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "cross-env NODE_ENV=\"development\" webpack --progress",
+    "serve": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikuroXina/barticle.git"
+  },
+  "author": "MikuroXina",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MikuroXina/barticle/issues"
+  },
+  "homepage": "https://github.com/MikuroXina/barticle#readme",
+  "devDependencies": {
+    "@types/mini-css-extract-plugin": "^1.4.3",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "electron": "^13.0.1",
+    "eslint": "^7.27.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "prettier": "^2.3.0",
+    "ts-loader": "^9.2.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
